@@ -4,3 +4,19 @@ applet/
 *.orig
 *.rej
 *.bak
+
+# CMake, QMake, and QtCreator local files:
+/.project
+*.pro.user*
+CMakeLists.txt.user*
+
+.make.cache
+.qmake.cache
+.qmake.vars
+
+# Build targets:
+/build/
+/**/build-*/
+
+# Junk Folders:
+/**/junk/
