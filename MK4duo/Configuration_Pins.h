@@ -164,7 +164,7 @@
 #define HEATER_1_PIN        ORIG_HEATER_1_PIN
 #define HEATER_2_PIN        ORIG_HEATER_2_PIN
 #define HEATER_3_PIN        ORIG_HEATER_3_PIN
-#define HEATER_BED_PIN      ORIG_HEATER_BED_PIN
+#define HEATER_BED_PIN      NoPin
 #define HEATER_CHAMBER_PIN  NoPin
 #define HEATER_COOLER_PIN   NoPin
 
@@ -243,7 +243,7 @@
 #endif
 
 #if ENABLED(CASE_LIGHT)
-  #define CASE_LIGHT_PIN NoPin
+  #define CASE_LIGHT_PIN ORIG_HEATER_BED_PIN
 #endif
 
 #if ENABLED(DOOR_OPEN)

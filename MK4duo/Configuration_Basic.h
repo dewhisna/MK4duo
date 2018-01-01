@@ -87,7 +87,7 @@
  *  0 - Disable heaters, wait forever
  *  1 - Reset controller. Will not reset separate communication chips!
  */
-#define KILL_METHOD 0
+#define KILL_METHOD 1
 
 /**
  * Some particular clients re-start sending commands only after receiving a 'wait' when there is a bad serial-connection.

@@ -573,7 +573,7 @@
  * By Scott Latherine @Thinkyhead                                         *
  *                                                                        *
  **************************************************************************/
-//#define SCAD_MESH_OUTPUT
+#define SCAD_MESH_OUTPUT
 /**************************************************************************/
 
 
@@ -664,7 +664,7 @@
  * This feature is not compatible with delta and scara printer.        *
  *                                                                     *
  ***********************************************************************/
-//#define FORCE_HOME_XY_BEFORE_Z
+#define FORCE_HOME_XY_BEFORE_Z
 /***********************************************************************/
 
 
@@ -1097,7 +1097,7 @@
 /*****************************************************************************************
  *************************************** SDCARD *******************************************
  ****************************************************************************************/
-//#define SDSUPPORT
+#define SDSUPPORT
 
 //#define SDSLOW              // Use slower SD transfer mode (not normally needed - uncomment if you're getting volume init error)
 //#define SDEXTRASLOW         // Use even slower SD transfer mode (not normally needed - uncomment if you're getting volume init error)
@@ -1218,7 +1218,7 @@
 //#define SHOW_CUSTOM_BOOTSCREEN
 #define STRING_SPLASH_LINE1 "v" SHORT_BUILD_VERSION       // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 STRING_DISTRIBUTION_DATE      // will be shown during bootup in line 2
-#define BOOTSCREEN_TIMEOUT 2000
+#define BOOTSCREEN_TIMEOUT 5000
 
 // LCD TYPE
 //
@@ -1256,7 +1256,7 @@
 
 // A smaller font may be used on the Info Screen. Costs 2300 bytes of PROGMEM.
 // Western only. Not available for Cyrillic, Kana, Turkish, Greek, or Chinese.
-//#define USE_SMALL_INFOFONT
+#define USE_SMALL_INFOFONT
 
 // Enable this option and reduce the value to optimize screen updates.
 // The normal delay is 10µs. Use the lowest value that still gives a reliable display.
@@ -1291,7 +1291,7 @@
 
 // This option reverses the encoder direction everywhere
 //  Set this option if CLOCKWISE causes values to DECREASE
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION
 
 // This option reverses the encoder direction for navigating LCD menus.
 //  If CLOCKWISE normally moves DOWN this makes it go UP.
@@ -1335,7 +1335,7 @@
 //#define STATUS_MESSAGE_SCROLLING
 
 // On the Info Screen, display XY with one decimal place when possible
-//#define LCD_DECIMAL_SMALL_XY
+#define LCD_DECIMAL_SMALL_XY
 
 // The timeout (in ms) to return to the status screen from sub-menus
 //#define LCD_TIMEOUT_TO_STATUS 15000
@@ -1404,7 +1404,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 // MakerLab Mini Panel with graphic
 // controller and SD support - http://reprap.org/wiki/Mini_panel
@@ -1706,7 +1706,7 @@
  * Check also Configuration_Laser.h                                       *
  *                                                                        *
  **************************************************************************/
-//#define LASER
+#define LASER
 /**************************************************************************/
 
 
@@ -1729,7 +1729,7 @@
  * M355 Case Light on-off / brightness                                    *
  *                                                                        *
  **************************************************************************/
-//#define CASE_LIGHT
+#define CASE_LIGHT
 
 // set to true if case light is ON when pin is at 0
 #define INVERT_CASE_LIGHT false
